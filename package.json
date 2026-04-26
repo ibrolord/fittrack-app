@@ -1,0 +1,13 @@
+{
+  "name": "fittrack-app",
+  "version": "1.0.0",
+  "description": "FitTrack workout tracking web app",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^14.0.0"
+  }
+}
